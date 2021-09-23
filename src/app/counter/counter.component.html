@@ -1,2 +1,9 @@
 <div class="bg-container">
+  <h2>Counter</h2>
+  <p>{{ count }}</p>
+  <div class="container">
+    <button class="increase" (click)="onIncrease()">increase</button>
+    <button class="decrease" (click)="onDecrease()">decrease</button>
+    <button class="reset" (click)="onReset()">reset</button>
+  </div>
 </div>
